@@ -36,19 +36,19 @@ paint: {
 'circle-color': [
 'step',
 ['get', 'point_count'],
-'#51bbd6',
-100,
-'#f1f075',
-750,
-'#f28cb1'
+'red',
+10,
+'orange',
+30,
+'yellow'
 ],
 'circle-radius': [
 'step',
 ['get', 'point_count'],
 20,
-100,
+10,
 30,
-750,
+30,
 40
 ]
 }
@@ -72,7 +72,7 @@ type: 'circle',
 source: 'campgrounds',
 filter: ['!', ['has', 'point_count']],
 paint: {
-'circle-color': '#11b4da',
+'circle-color': 'yellow',
 'circle-radius': 4,
 'circle-stroke-width': 1,
 'circle-stroke-color': '#fff'
