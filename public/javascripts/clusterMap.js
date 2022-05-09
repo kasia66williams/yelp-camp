@@ -39,9 +39,9 @@ paint: {
 'step',
 ['get', 'point_count'],
 'red',
-10,
+2,
 'orange',
-30,
+5,
 'yellow'
 ],
 'circle-radius': [
@@ -74,7 +74,7 @@ type: 'circle',
 source: 'campgrounds',
 filter: ['!', ['has', 'point_count']],
 paint: {
-'circle-color': 'yellow',
+'circle-color': 'red',
 'circle-radius': 4,
 'circle-stroke-width': 1,
 'circle-stroke-color': '#fff'
